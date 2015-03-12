@@ -1,7 +1,9 @@
 $(document).ready(function(){
-    $('section[data-type="background"]').each(function(){
+
+    $('section [data-type="background"]').each(function(){
+        console.log("sdf");
+        
         var $bgobj = $(this); // assigning the object
-    
         $(window).scroll(function() {
             var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
             
@@ -13,6 +15,7 @@ $(document).ready(function(){
         }); 
     });    
 });
+
 
 var data = {
     labels: [ "Coder", "Réflexion", "Dormir", "Sport", "Panique", "Jouer", "Musique"],
