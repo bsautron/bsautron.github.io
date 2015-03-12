@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 var data = {
-    labels: [ "Coder", "Réflexion", "Manger", "Boire", "Dormir", "Sport", "Panique", "Jouer", "Musique"],
+    labels: [ "Coder", "Réflexion", "Dormir", "Sport", "Panique", "Jouer", "Musique"],
     datasets: [
     {
         label: "Not tired",
@@ -25,7 +25,7 @@ var data = {
         pointStrokeColor: "#fff",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(4,99,128,1)",
-        data: [100, 55, 60, 55, 95, 40, 20, 45, 35]
+        data: [100, 55, 95, 40, 20, 45, 35]
     }
     ]
 };
