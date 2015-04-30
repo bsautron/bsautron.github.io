@@ -18,8 +18,19 @@ header {
     background: url('37364_miscellaneous_black-white.jpg') center center;
 }
 
+header h1 {
+    color: rgba(0,0,0,0.7);
+    font-family: 'Oswald', sans-serif;
+}
+
+header h2 {
+    color: rgba(0,0,0,0.6);
+    font-family: 'Bad Script', cursive;
+}
+
 #myhead {
-     padding: 30px;   
+    padding: 30px;   
     color: black;
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.7);
+    border: solid 6px rgba(255,255,255,0.6);
 }
