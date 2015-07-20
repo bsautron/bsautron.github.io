@@ -29,7 +29,7 @@
         </div>
         <div class="ghost"></div><span id="descritpion">Curriculum vitae</span>
         <nav class="menu">
-          <ul><a href="#s-connect"><li>connect</li></a><a href="#s-timeline"><li>timeline</li></a><a href="#s-hobbies"><li>hobbies</li></a><a href="#s-skills"><li>skills</li></a>
+          <ul><a id="a-connect" href="#s-connect"><li>connect</li></a><a id="a-timeline" href="#s-timeline"><li>timeline</li></a><a id="a-hobbies" href="#s-hobbies"><li>hobbies</li></a><a id="a-skills" href="#s-skills"><li>skills</li></a>
           </ul>
         </nav>
       </div>
@@ -44,5 +44,6 @@
     <script>hobbies();</script>
     <script>skills();</script>
     <script>citation('"Slow and methodical testing like this will eventually get you to a point where you will either be able to spot the bug, or go quietly insane. Maybe both."', "s-connect");</script>
+    <script>$("#a-connect").attr("href", "#my-name");</script>
   </body>
 </html>
