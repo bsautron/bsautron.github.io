@@ -4,12 +4,36 @@ section {
 	padding-bottom: 30px;
 }
 
+
 .radius {
 	border-radius: 20000px;
 }
 
 section h1 {
-	text-transform: capitalize;
+	text-align: left;
+	position: relative;
+	font-size: 6em;
+	margin: 0px;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+}
+
+section h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: left;
+	font-size: 1.5em;
+	margin-bottom: 90px;
+
+}
+
+.align-center {
+	text-align: center;
+}
+.align-left {
+	text-align: left;
+}
+.align-right {
+	text-align: right;
 }
 
 .ghost {
@@ -32,4 +56,8 @@ section h1 {
 .citation:hover {
 	color: #F2F5A9;
 	text-shadow: 0 0 2px #F2F5A9;
+}
+
+.dark-blue {
+	color: #046380;
 }

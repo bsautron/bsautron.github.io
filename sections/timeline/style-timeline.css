@@ -1,0 +1,27 @@
+#s-timeline {
+	padding: 70px;
+}
+
+#s-timeline .qt {
+	font-family: 'Arvo', serif;
+	display: flex;
+	margin: 1px;
+}
+
+#s-timeline .qt-qt {
+	height: 100px;
+	line-height: 100px;
+	padding: 10px;
+	margin: 1px;
+}
+
+#s-timeline .qt-begin {
+	font-size: 0.6em;
+
+}
+
+#s-timeline .qt-end {
+	font-weight: bold;
+	min-width: 280px;
+	font-size: 3em;
+}

@@ -59,6 +59,7 @@ function connect() {
 	var section = document.getElementById('s-connect');
 	var elem_title = document.createElement("h1");
 	elem_title.setAttribute("id", "my-name");
+	elem_title.setAttribute("class", "align-center");
 	elem_title.appendChild(document.createTextNode(me["firstname"] + " " + me["lastname"]));
 	section.appendChild(elem_title);
 
@@ -66,6 +67,7 @@ function connect() {
 	for (var i = 0; me["assets"][i]; i++)
 	{
 		var as = document.createElement("h2");
+		as.setAttribute("class", "align-center");
 		as.appendChild(document.createTextNode(me["assets"][i]));
 		section.appendChild(as);		
 	}
