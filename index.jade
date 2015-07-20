@@ -15,6 +15,10 @@ html(lang="en")
             - for (var i = 0; sectionsTab[i]; i++)
               a(id= 'a-' + sectionsTab[i], href='#s-' + sectionsTab[i])!= '<li>' + sectionsTab[i] + '</li>'
       #fond-white
+      svg(xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", viewBox="0 0 1000 20", preserveAspectRatio="none", width="100%", height="25%")
+        polygon(points="0,0 1000,15 0,100", style="fill:#fff;")
+        polygon(points="1000,0 0,7 1000,30", style="fill:#fff;")
+
 
     - for (var i = 0; sectionsTab[i]; i++)
       section(id="s-" + sectionsTab[i])

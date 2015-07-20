@@ -72,7 +72,7 @@ header #descritpion {
 }
 
 #fond-white {
-	background: white;
+	/*background: white;*/
 	position: absolute;
 	bottom: 0;
 	width: 100%;

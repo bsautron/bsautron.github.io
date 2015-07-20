@@ -98,3 +98,11 @@ function timeline() {
 	}
 	document.body.appendChild(section);
 }
+
+$("#s-timeline").hover(
+	function() {
+		console.log("passer");
+	},
+	function() {
+		console.log("non");
+	});
