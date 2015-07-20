@@ -1,0 +1,35 @@
+section { 
+	background: white;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.radius {
+	border-radius: 20000px;
+}
+
+section h1 {
+	text-transform: capitalize;
+}
+
+.ghost {
+	position: relative;
+	height: 33vh;
+	width: 100%;
+}
+
+.citation {
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-style:italic;
+	padding: 50px;
+	background-color: #1C1C1C;
+	color:#D8D8D8;
+	font-size:1.7em;
+	transition: all .3s;
+}
+
+.citation:hover {
+	color: #F2F5A9;
+	text-shadow: 0 0 2px #F2F5A9;
+}

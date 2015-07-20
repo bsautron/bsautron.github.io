@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  include ./includes/head.jade
+
+  body
+    header
+      #fond-header
+        .ghost
+        #middle
+          h1.radius= 'Architect in digital technologies'
+        .ghost
+        span(id="descritpion")= 'Curriculum vitae'
+        nav.menu
+          ul
+            - for (var i = 0; sectionsTab[i]; i++)
+              a(href='#s-' + sectionsTab[i])!= '<li>' + sectionsTab[i] + '</li>'
+      #fond-white
+
+    - for (var i = 0; sectionsTab[i]; i++)
+      section(id="s-" + sectionsTab[i])
+
+    script connect();
+    script timeline();
+    script hobbies();
+    script skills();
+    script citation('"Slow and methodical testing like this will eventually get you to a point where you will either be able to spot the bug, or go quietly insane. Maybe both."', "s-connect");
+

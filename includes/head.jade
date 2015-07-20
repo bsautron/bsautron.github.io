@@ -1,0 +1,20 @@
+- sectionsDir = "sections/";
+- sectionsTab = ["connect", "timeline", "hobbies", "skills"];
+
+head
+	title= "CV - Bruno Sautron"
+	link(href='http://fonts.googleapis.com/css?family=Wire+One', rel='stylesheet', type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=Raleway', rel='stylesheet' type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow', rel='stylesheet', type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=Dancing+Script:700', rel='stylesheet', type='text/css')
+	link(rel="stylesheet", href='css/page.css')
+	link(rel="stylesheet", href='css/details.css')
+	link(rel="stylesheet", href='css/bootstrap.min.css')
+
+	script(src= "jquery-2.1.4.min.js")
+	script(src= "citations/citation.js")
+	- for (var i = 0; sectionsTab[i]; i++)
+		script(src= sectionsDir + sectionsTab[i] + '/' + sectionsTab[i] + '.js')
+		link(rel="stylesheet", href= sectionsDir + sectionsTab[i] + '/style-' + sectionsTab[i] + ".css")
+	
+
