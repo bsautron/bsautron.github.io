@@ -16,7 +16,7 @@ function hobbies() {
 		{"name": "coding", "img": "img/coding.png", "description": "Can we call \"working\" something we can't stop to do?"},
 		{"name": "sleeping", "img": "img/sleeping.png", "description": "Sleeping is the best way to have enought energy to code. It's so relaxing..."},
 		{"name": "running", "img": "img/running.png", "description": "I practiced athletics for 10 years, and now I ride my bike every day."},
-		{"name": "gaming", "img": "img/gaming.png", "description": "I like strategy game, like MMORPG."},
+		{"name": "gaming", "img": "img/gaming.png", "description": "I like online strategy game, like MMORPG and MOBA."},
 		{"name": "music", "img": "img/guitar.png", "description": "To listen or to play, it's my drug. I learned guitar my self and I like to sing over. If i can (and have time), I will learn all instruments."}
 	]
 
