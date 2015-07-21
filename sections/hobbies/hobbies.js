@@ -3,7 +3,6 @@ function printHobbie(hobbie) {
 	el.setAttribute("class", "hb");
 	el.setAttribute("id", "hb-" + hobbie["name"]);
 
-	console.log(hobbie["img"])
 	el.innerHTML = "<div class\"hb-img\"><img src=\"" + hobbie["img"] + "\" height=\"100px\"></img><h3>" + hobbie["name"] + "</h3><p>" + hobbie["description"] + "</div>";
 	return (el);
 }
