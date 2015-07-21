@@ -1,0 +1,22 @@
+#s-hobbies {
+	padding: 30px;
+}
+
+#s-hobbies #c-hobbies {
+	display: flex;
+	justify-content:space-around;
+}
+
+#s-hobbies .hb {
+	margin: 1px;
+	width:160px;
+}
+
+#s-hobbies h3 {
+	font-family: 'Raleway', sans-serif;
+	text-transform: capitalize;
+}
+
+#s-hobbies p {
+	font-family: 'PT Sans Narrow', sans-serif;
+}

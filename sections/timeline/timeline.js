@@ -1,4 +1,4 @@
-function printAll(qt)
+function printQt(qt)
 {
 	var el = document.createElement("div");
 	el.setAttribute("class", "qt");
@@ -93,16 +93,8 @@ function timeline() {
 	]
 	for (var i = 0; qt[i]; i++)
 	{
-		el = printAll(qt[i]);
+		var el = printQt(qt[i]);
 		section.appendChild(el);
 	}
 	document.body.appendChild(section);
 }
-
-$("#s-timeline").hover(
-	function() {
-		console.log("passer");
-	},
-	function() {
-		console.log("non");
-	});
