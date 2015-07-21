@@ -94,3 +94,30 @@ header #descritpion {
 	padding:30px;
 	letter-spacing:5px;
 }
+
+footer {
+	/*background: black;*/
+	position: relative;
+	height: 100px;
+	width: 100%;
+}
+
+footer #cont-used {
+	top: 0;
+	width:100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content:flex-end;
+}
+footer .use {
+	font-family: 'Dancing Script', cursive;
+	color: rgba(125,125,125,1);
+	font-size: 1.7em;
+	/*width:10%;  faut que ca soit automatique */
+	padding-right: 10px;
+	height:130px;
+	line-height:130px;
+	margin: 1px;
+	height: 100%;
+}

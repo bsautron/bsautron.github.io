@@ -4,7 +4,6 @@ section {
 	padding-bottom: 30px;
 }
 
-
 .radius {
 	border-radius: 20000px;
 }
@@ -26,15 +25,9 @@ section h2 {
 
 }
 
-.align-center {
-	text-align: center;
-}
-.align-left {
-	text-align: left;
-}
-.align-right {
-	text-align: right;
-}
+.align-center { text-align: center; }
+.align-left { text-align: left; }
+.align-right { text-align: right; }
 
 .ghost {
 	position: relative;
