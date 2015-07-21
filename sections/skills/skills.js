@@ -75,7 +75,7 @@ function printTk(techno) {
 		tk.setAttribute("class", "tk");
 		tk.innerHTML = "<div class=\"tk-name\">" + techno[i]["name"] + "</div>";
 		for (var y = 0; y < techno[i]["level"]; y++)
-			tk.innerHTML += "<img src=\"http://www.icone-png.com/png/1/604.png\" height=\"25px\"></img>";
+			tk.innerHTML += "<img src=\"img/star.png\" height=\"25px\"></img>";
 		lvl[techno[i]["level"] - 1].appendChild(tk);
 		el.appendChild(lvl[techno[i]["level"] - 1]);
 	}
