@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node app.js"                                // C'est ici qu'on va lancer le listen (dans app.js)
+    "start": "babel-node app.js"
   },
   "repository": {
     "type": "git",
