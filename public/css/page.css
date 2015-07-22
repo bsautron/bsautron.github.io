@@ -45,8 +45,8 @@ header .menu li {
 }
 
 header .menu a {
-	font-size: 1.1em;
 	text-decoration: none;
+	font-size: 1.1em;
 	color: rgba(255, 255, 255, 0.9);
 }
 
@@ -80,10 +80,6 @@ header #descritpion {
 	height: 25%;
 }
 
-/*#middle {
-	height: 13vh;
-}*/
-
 .middle {
 	font-family: 'Wire One', sans-serif;
 	color: white;
@@ -97,7 +93,6 @@ header #descritpion {
 }
 
 footer {
-	/*background: black;*/
 	position: relative;
 	height: 100px;
 	width: 100%;
@@ -111,34 +106,32 @@ footer #cont-used {
 	display: flex;
 	justify-content:flex-end;
 }
-footer .use {
-	font-family: 'Dancing Script', cursive;
-	color: rgba(125,125,125,1);
-	font-size: 1.7em;
-	/*width:10%;  faut que ca soit automatique */
-	padding-right: 10px;
-	height:130px;
-	line-height:130px;
-	margin: 1px;
-	height: 100%;
-}
 
 footer #cont-me {
+	position: absolute;
+	color: rgba(0,0,0,0.6);
+	top:0;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	width: 100%;
-	height: 113%;
-	padding-bottom: 15px;
-}
-
-footer a {
-	font-size: 2.2em;
-	position: relative;
-	top: -113px;
-	font-family: 'PT Sans Narrow', sans-serif;
+	height: 100%;
+	text-decoration: none;
 	text-transform: uppercase;
 }
-footer a:hover #cont-me {
+
+
+footer li {
+	list-style-type: none;
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	font-size: 2.2em;
+	position: relative;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+footer #cont-me:hover {
 	background: rgba(255,255,255,0.3);
 }
