@@ -29,6 +29,9 @@ html(lang="en")
 				svg(xmlns="http://www.w3.org/2000/svg", xmlns:xlink="http://www.w3.org/1999/xlink", viewBox="0 0 1000 20", preserveAspectRatio="none", width="100%", height="100%")
 					polygon(points="0,0 1000,0 650,8", style="fill:#fff;")
 
+				a(href="#my-name")
+					#cont-me= 'Contact me'
+
 			script(src= "/jquery-2.1.4.min.js")
 			script(src= "/citations/citation.js")
 			- for (var i = 0; sectionsTab[i]; i++)
@@ -43,4 +46,5 @@ html(lang="en")
 
 			script.
 				$("#a-connect").attr("href", "#my-name");
+
 			
