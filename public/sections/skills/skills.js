@@ -39,46 +39,40 @@ function printSkills(skill) {
 	return (el);
 }
 
-function printTk(techno) {
+function printTk(category, techno) {
 	var el = document.createElement("div");
 	el.setAttribute("id", "cont-techno");
 	el.setAttribute("class", "class-techno");
 
-	var lvl = [
-		document.createElement("div"),
-		document.createElement("div"),
-		document.createElement("div"),
-		document.createElement("div"),
-		document.createElement("div")
-		];
+	var cate = [],
+			y = 0;
 
-	lvl[0].setAttribute("id", "tk-raw1");
-	lvl[0].setAttribute("class", "tk-raw");
-	el.appendChild(lvl[0]);
-	lvl[1].setAttribute("id", "tk-raw2");
-	lvl[1].setAttribute("class", "tk-raw");
-	el.appendChild(lvl[1]);
-	lvl[2].setAttribute("id", "tk-raw3");
-	lvl[2].setAttribute("class", "tk-raw");
-	el.appendChild(lvl[2]);
-	lvl[3].setAttribute("id", "tk-raw4");
-	lvl[3].setAttribute("class", "tk-raw");
-	el.appendChild(lvl[3]);
-	lvl[4].setAttribute("id", "tk-raw5");
-	lvl[4].setAttribute("class", "tk-raw");
-	el.appendChild(lvl[4]);
+	for (var key in category) {
 
-
-	for (var i = 0; techno[i] && techno[i]["level"] >= 3; i++)
-	{
-		var tk = document.createElement("div");
-		tk.setAttribute("class", "tk");
-		tk.innerHTML = "<div class=\"tk-name\">" + techno[i]["name"] + "</div>";
-		for (var y = 0; y < techno[i]["level"]; y++)
-			tk.innerHTML += "<img src=\"img/star.png\" height=\"25px\"></img>";
-		lvl[techno[i]["level"] - 1].appendChild(tk);
-		el.appendChild(lvl[techno[i]["level"] - 1]);
+		cate.push( {"name": category[key], "element": document.createElement("div") , "cont-techno": document.createElement("div")} );
+		cate[y]["element"].setAttribute("id", "cate-" + category[key]);
+		cate[y]["element"].setAttribute("class", "cate");
+		cate[y]["element"].innerHTML = "<div class=\"cate-name\"><div class=\"cate-border\"></div><div class=cate-write><div>" + category[key] + "</div></div><div class=\"cate-border\"></div>";
+		cate[y]["cont-techno"].setAttribute("class", "cont-tk");
+		y++;
 	}
+
+
+	for (var i = 0; techno[i]; i++) {
+		if (techno[i]["level"] >= 50) {
+			var tk = document.createElement("div");
+			tk.setAttribute("class", "tk");
+			tk.innerHTML = "<div class=\"tk-bar\" style=\"height: " + techno[i]["level"] + "%;\">" + techno[i]["name"] + "</div>";
+			var index = 0;
+			while (cate[index]["name"] != techno[i]["category"][0]) {
+				index++;
+			}
+			cate[index]["cont-techno"].appendChild(tk);
+			cate[index]["element"].appendChild(cate[index]["cont-techno"]);
+			el.appendChild(cate[index]["element"]);
+		}
+	}
+
 	return (el);
 }
 
@@ -87,6 +81,12 @@ function skills() {
 	section.innerHTML = "<h1 class='align-left'>Skills</h1>";
 	section.innerHTML += "<h2 class='align-left'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
 	
+
+	var category = {
+		"programming": "programming",
+		"web": "web"
+	};
+
 	var sk = {
 		"langage": [
 			{"name": "French", "level": 4},
@@ -103,27 +103,29 @@ function skills() {
 			{"name": "Network & system administration", "level": 20}
 		],
 		"technologies": [
-			{"name": "c", "level": 5, "img": ""},
-			{"name": "c++", "level": 5, "img": ""},
-			{"name": "js", "level": 4, "img": ""},
-			{"name": "php", "level": 3, "img": ""},
-			{"name": "html", "level": 4, "img": ""},
-			{"name": "css", "level": 4, "img": ""},
-			{"name": "bash", "level": 4, "img": ""},
-			{"name": "ajax", "level": 1, "img": ""},
-			{"name": "jquery", "level": 3, "img": ""},
-			{"name": "sql", "level": 4, "img": ""},
-			{"name": "python", "level": 5, "img": ""},
-			{"name": "jade", "level": 1, "img": ""}
+			{"name": "c", "level": 99, "category": [category["programming"]], "img": ""},
+			{"name": "c++", "level": 90, "category": [category["programming"]], "img": ""},
+			{"name": "js", "level": 78, "category": [category["programming"]], "img": ""},
+			{"name": "php", "level": 55, "category": [category["web"]], "img": ""},
+			{"name": "html", "level": 60, "category": [category["web"]], "img": ""},
+			{"name": "css", "level": 60, "category": [category["web"]], "img": ""},
+			{"name": "bash", "level": 70, "category": [category["programming"]], "img": ""},
+			{"name": "ajax", "level": 10, "category": [category["web"]], "img": ""},
+			{"name": "jq", "level": 50, "category": [category["web"]], "img": ""},
+			{"name": "sql", "level": 75, "category": [category["web"]], "img": ""},
+			{"name": "py", "level": 88, "category": [category["programming"]], "img": ""},
+			{"name": "jade", "level": 22, "category": [category["web"]], "img": ""},
+			{"name": "asm", "level": 22, "category": [category["programming"]], "img": ""}
 		]
-	}
+	};
 
-	sk["skills"].sort(function (a, b) {return (b["level"] - a["level"]);})
-	sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	// sk["skills"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	// sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
+
 
 	var lang = printLang(sk["langage"]);
 	var skills = printSkills(sk["skills"]);
-	var tk = printTk(sk["technologies"]);
+	var tk = printTk(category, sk["technologies"]);
 
 	section.innerHTML += "<h3 class=\"align-left\">Speaking</h3>";
 	section.appendChild(lang);
@@ -131,8 +133,6 @@ function skills() {
 	section.appendChild(skills);
 	section.innerHTML += "<h3 class=\"align-left\">Technologies</h3>";
 	section.appendChild(tk);
-	// $('#footer').befor(section);
 
 	$("#footer").before(section);
-	// document.body.appendChild(section);
 }

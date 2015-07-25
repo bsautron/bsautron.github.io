@@ -11,9 +11,7 @@ function printInfos(me, what, image) {
 	}
 	else if (what === "tel") {
 		lien.setAttribute("href", "tel:" + me[what]);
-		lien.innerHTML = me[what].substr(0, 3)
-							+ ' '
-							+ me[what].substr(3, 1)
+		lien.innerHTML = me[what].substr(0, 4)
 							+ ' '
 							+ me[what].substr(4, 2)
 							+ ' '
