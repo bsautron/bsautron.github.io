@@ -96,6 +96,11 @@
 	width: 100%;
 }
 
+#s-skills .tk-bar:hover {
+	/*background: rgba(0,0,0,0.8);*/
+	color: white;
+}
+
 #s-skills .cate {
 	padding: relative;
 	display: flex;
