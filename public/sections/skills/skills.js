@@ -56,8 +56,7 @@ function printTk(category, techno) {
 		cate[y]["element"].setAttribute("class", "cate");
 		cate[y]["element"].innerHTML = "<div class=\"cate-name\">" +
 											"<div class=\"cate-border\"></div>" + 
-											"<div class=cate-write>" + category[key] + "</div>" +
-											"<div class=\"cate-border\"></div>" +
+											"<div class=cate-write><div class='cate-write-in'>" + category[key] + "</div></div>" +
 										"</div>";
 		cate[y]["cont-techno"].setAttribute("class", "cont-tk");
 		y++;

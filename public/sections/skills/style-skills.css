@@ -109,30 +109,35 @@
 	position: relative;
 	top: 110%;
 	width: 100%;
-	display: flex;
-	justify-content: space-around;
+	height: 25px;
+	/*display: flex;*/
+	/*justify-content: space-between;*/
 	text-transform: uppercase;
 }
 
 #s-skills .cate-write {
-	/*position: relative;*/
-	/*font-family: 'PT Sans Narrow', sans-serif;*/
-	/*font-weight: bold;*/
-	/*font-size: 1.6em;*/
-	/*padding-left: 10px;*/
-	/*padding-right: 10px;*/
-	background: red;
-	/*min-width: 1px;*/
+	position: relative;
+	display: flex;
+	justify-content:center;
+	top: -75%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 1.6em;
+	/*background: blue;*/
+	min-width: 1px;
+	/*background: red;*/
+}
+
+#s-skills .cate-write-in {
+	background: white;
 }
 
 #s-skills .cate-border {
 	position: relative;
+	top: 50%;
+	/*background: blue;*/
 	width: 100%;
+	height: 100%;
 	border-top: 2px solid #333;
-	top: 12px;
-}
-
-#s-skills .plus {
-	position: absolute;
-	top: 100%;
+	/*top: 12px;*/
 }
