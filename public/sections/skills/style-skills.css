@@ -115,13 +115,14 @@
 }
 
 #s-skills .cate-write {
-	position: relative;
-	font-family: 'PT Sans Narrow', sans-serif;
-	font-weight: bold;
-	font-size: 1.6em;
-	padding-left: 10px;
-	padding-right: 10px;
+	/*position: relative;*/
+	/*font-family: 'PT Sans Narrow', sans-serif;*/
+	/*font-weight: bold;*/
+	/*font-size: 1.6em;*/
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
 	background: red;
+	/*min-width: 1px;*/
 }
 
 #s-skills .cate-border {

@@ -54,7 +54,11 @@ function printTk(category, techno) {
 		cate.push( {"name": category[key], "element": document.createElement("div") , "cont-techno": document.createElement("div")} );
 		cate[y]["element"].setAttribute("id", "cate-" + category[key]);
 		cate[y]["element"].setAttribute("class", "cate");
-		cate[y]["element"].innerHTML = "<div class=\"cate-name\"><div class=\"cate-border\"></div><div class=cate-write>" + category[key] + "</div><div class=\"cate-border\"></div>";
+		cate[y]["element"].innerHTML = "<div class=\"cate-name\">" +
+											"<div class=\"cate-border\"></div>" + 
+											"<div class=cate-write>" + category[key] + "</div>" +
+											"<div class=\"cate-border\"></div>" +
+										"</div>";
 		cate[y]["cont-techno"].setAttribute("class", "cont-tk");
 		y++;
 	}
