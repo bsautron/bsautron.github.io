@@ -119,25 +119,22 @@
 	position: relative;
 	display: flex;
 	justify-content:center;
-	top: -75%;
+	top: -100%;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: bold;
 	font-size: 1.6em;
-	/*background: blue;*/
-	min-width: 1px;
-	/*background: red;*/
 }
 
 #s-skills .cate-write-in {
 	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #s-skills .cate-border {
 	position: relative;
 	top: 50%;
-	/*background: blue;*/
 	width: 100%;
 	height: 100%;
 	border-top: 2px solid #333;
-	/*top: 12px;*/
 }
