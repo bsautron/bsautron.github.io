@@ -10,7 +10,7 @@ function printHobbie(hobbie) {
 function hobbies() {
 	section = document.getElementById('s-hobbies');
 	section.innerHTML = "<h1 class='align-center'>hobbies</h1>";
-	section.innerHTML += "<h2 class='align-center'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
+	// section.innerHTML += "<h2 class='align-center'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
 
 	var hobbie = [
 		{"name": "coding", "img": "img/coding.png", "description": "Can we call <em>working</em> something we can't stop to do?"},

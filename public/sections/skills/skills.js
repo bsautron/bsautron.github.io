@@ -20,6 +20,7 @@ function printLang(lang) {
 			
 		el.appendChild(lg);
 	}
+
 	return (el);
 }
 
@@ -36,6 +37,7 @@ function printSkills(skill) {
 		sk.innerHTML = "<div class=\"sk-name align-left\" style=\"width:" + skill[i]["level"] + "%\" >" + skill[i]["name"] + "</div>";
 		el.appendChild(sk);
 	}
+
 	return (el);
 }
 
@@ -72,14 +74,13 @@ function printTk(category, techno) {
 			el.appendChild(cate[index]["element"]);
 		}
 	}
-
 	return (el);
 }
 
 function skills() {
 	section = document.getElementById('s-skills');
 	section.innerHTML = "<h1 class='align-left'>Skills</h1>";
-	section.innerHTML += "<h2 class='align-left'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
+	// section.innerHTML += "<h2 class='align-left'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
 	
 
 	var category = {
@@ -119,8 +120,8 @@ function skills() {
 		]
 	};
 
-	// sk["skills"].sort(function (a, b) {return (b["level"] - a["level"]);})
-	// sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	sk["skills"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
 
 
 	var lang = printLang(sk["langage"]);

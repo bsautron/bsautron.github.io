@@ -11,5 +11,5 @@ app.get('/', (request, response) => { /* request avec les param, toute les metho
 });
 
 app.listen(3000, () => {
-	console.log("serv listening")
-})
+	console.log("Server listening...")
+});

@@ -36,7 +36,7 @@ function printQt(qt)
 function timeline() {
 	section = document.getElementById('s-timeline');
 	section.innerHTML = "<h1>Timeline</h1>";
-	section.innerHTML += "<h2>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
+	// section.innerHTML += "<h2>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
 
 	var qt = [
 	{

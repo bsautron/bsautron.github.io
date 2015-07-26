@@ -51,17 +51,12 @@
 	margin-bottom: 100px;
 }
 
-
-
-
 #s-skills #cont-techno {
 	position: relative;
-	top: -100px;
 	height: 350px;
 	display: flex;
 	justify-content: center;
 }
-
 
 #s-skills .tk-bar {
 	font-family: 'Arvo', serif;
@@ -71,7 +66,6 @@
 	background: black;
 	font-size: 1.2em;
 }
-
 
 #s-skills .cont-tk {
 	width: 100%;
@@ -97,7 +91,6 @@
 }
 
 #s-skills .tk-bar:hover {
-	/*background: rgba(0,0,0,0.8);*/
 	color: white;
 }
 
@@ -118,13 +111,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	/*height: 100px;*/
-	/*padding-top: 20px;*/
-	/*padding-bottom: 20px;*/
-	/*background: red;*/
-	/*height: 100%;*/
 	text-transform: uppercase;
-	/*background: red;*/
 }
 
 #s-skills .cate-write {
@@ -141,4 +128,9 @@
 	width: 100%;
 	border-top: 2px solid #333;
 	top: 12px;
+}
+
+#s-skills .plus {
+	position: absolute;
+	top: 100%;
 }
