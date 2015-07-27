@@ -116,15 +116,14 @@ function skills() {
 			{"name": "bash", "level": 70, "category": [category["programming"]], "img": ""},
 			{"name": "ajax", "level": 10, "category": [category["web"]], "img": ""},
 			{"name": "jq", "level": 50, "category": [category["web"]], "img": ""},
-			{"name": "sql", "level": 75, "category": [category["web"]], "img": ""},
 			{"name": "py", "level": 88, "category": [category["programming"]], "img": ""},
+			{"name": "sql", "level": 75, "category": [category["web"]], "img": ""},
 			{"name": "jade", "level": 22, "category": [category["web"]], "img": ""},
 			{"name": "asm", "level": 22, "category": [category["programming"]], "img": ""}
 		]
 	};
 
-	sk["skills"].sort(function (a, b) {return (b["level"] - a["level"]);})
-	sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	// sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
 
 
 	var lang = printLang(sk["langage"]);
