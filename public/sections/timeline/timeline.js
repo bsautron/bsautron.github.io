@@ -24,6 +24,11 @@ function printQt(qt)
 	diploma.innerHTML = qt["diploma"];
 	el.appendChild(diploma);
 
+	var school = document.createElement("td");
+	school.setAttribute("class", "qt-qt qt-school");
+	school.innerHTML = qt["school"];
+	el.appendChild(school);
+
 	var place = document.createElement("td");
 	place.setAttribute("class", "qt-qt qt-place dark-blue");
 	place.innerHTML = qt["country"] + '/' + qt["city"];

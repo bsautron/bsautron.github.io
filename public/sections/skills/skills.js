@@ -1,3 +1,5 @@
+// import Math from "math"
+
 function printLang(lang) {
 	var el = document.createElement("div");
 	el.setAttribute("id", "cont-lang");
@@ -123,7 +125,7 @@ function skills() {
 		]
 	};
 
-	// sk["technologies"].sort(function (a, b) {return (b["level"] - a["level"]);})
+	sk["technologies"].sort(function (a, b) {return (Math.random() - 0.5);})
 
 
 	var lang = printLang(sk["langage"]);

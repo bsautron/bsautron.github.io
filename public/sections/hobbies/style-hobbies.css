@@ -15,8 +15,10 @@
 #s-hobbies h3 {
 	font-family: 'Raleway', sans-serif;
 	text-transform: capitalize;
+	font-weight: bold;
 }
 
 #s-hobbies p {
 	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.1em;
 }
