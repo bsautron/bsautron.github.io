@@ -9,6 +9,7 @@ html(lang="en")
 	head
 		meta(http-equiv="content-type", content="text/html; charset=utf-8")
 		title #{title}
+		link(rel="icon", type="image/png", href="/img/running.png")
 		link(href='http://fonts.googleapis.com/css?family=Wire+One', rel='stylesheet', type='text/css')
 		link(href='http://fonts.googleapis.com/css?family=Raleway', rel='stylesheet' type='text/css')
 		link(href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow', rel='stylesheet', type='text/css')
@@ -32,6 +33,15 @@ html(lang="en")
 				a(id="cont-me", href="#my-name")
 					li= 'Contact me'
 
+			//- .fade-in.
+			//- 	test1
+
+			//- .fade-in-left.
+			//- 	test2
+
+			//- .fade-in.
+			//- 	test3
+
 			script(src= "/jquery-2.1.4.min.js")
 			script(src= "/citations/citation.js")
 			- for (var i = 0; sectionsTab[i]; i++)
@@ -47,4 +57,5 @@ html(lang="en")
 			script.
 				$("#a-connect").attr("href", "#my-name");
 
-			
+			script(src= "/effect.js")
+

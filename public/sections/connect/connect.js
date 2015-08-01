@@ -63,8 +63,8 @@ function connect() {
 	var assets = [];
 	for (var i = 0; me["assets"][i]; i++)
 	{
-		var as = document.createElement("h2");
-		as.setAttribute("class", "align-center");
+		var as = document.createElement("div");
+		as.setAttribute("class", "asset align-center");
 		as.appendChild(document.createTextNode(me["assets"][i]));
 		section.appendChild(as);		
 	}

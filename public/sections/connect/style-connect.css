@@ -12,11 +12,11 @@
 	font-size:5em;
 }
 
-#s-connect h2, #s-connect a {
+#s-connect .asset, #s-connect a {
 	font-size: 2em;
 	font-family: 'Raleway', sans-serif;
 	color:rgba(20, 20, 20, 0.2);
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #other-coo {
