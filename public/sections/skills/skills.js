@@ -33,7 +33,7 @@ function printSkills(skill) {
 	for (var i = 0; skill[i]  && skill[i]["level"] >= 50; i++) {
 		var sk = document.createElement("div");
 		sk.setAttribute("class", "sk");
-		// sk.setAttribute("data-sr", "enter left, hustle 30px");
+		sk.setAttribute("data-sr", "enter left, hustle 30px");
 		sk.innerHTML = "<div class=\"sk-name align-left\" style=\"width:" + skill[i]["level"] + "%\" >" + skill[i]["name"] + "</div>";
 		el.appendChild(sk);
 	}
