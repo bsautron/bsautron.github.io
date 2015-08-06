@@ -38,7 +38,7 @@
 .lg-lvl1 { color: #8B0000; }
 
 #s-skills .sk-name {
-	/*font-family: 'Arvo', serif;*/
+	font-family: 'Arvo', serif;
 	background: black;
 	color: rgba(255,255,255,0.8);
 	font-size: 1.3em;
