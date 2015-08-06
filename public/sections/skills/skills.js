@@ -101,7 +101,7 @@ function skills() {
 		"skills": [
 			{"name": "Algorithms and AI", "level": 98},
 			{"name": "Imperative programming", "level": 90},
-			{"name": "Unix ", "level": 70},
+			{"name": "Unix sf", "level": 70},
 			{"name": "Web ", "level": 60},
 			{"name": "Object-oriented programming", "level": 85},
 			{"name": "Graphics", "level": 40},
