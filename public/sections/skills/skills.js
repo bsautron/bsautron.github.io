@@ -30,7 +30,7 @@ function printSkills(skill) {
 	el.setAttribute("class", "class-skills");
 
 
-	for (var i = 0; skill[i]  && skill[i]["level"] > 0; i++) {
+	for (var i = 0; skill[i]  && skill[i]["level"] >= 50; i++) {
 		var sk = document.createElement("div");
 		sk.setAttribute("class", "sk");
 		// sk.setAttribute("data-sr", "enter left, hustle 30px");
