@@ -3,6 +3,7 @@ function printInfos(me, what, image) {
 
 	elem = document.createElement("div");
 	elem.setAttribute("class", "other-coo");
+	elem.setAttribute("data-sr", "hustle 30%");
 	elem.setAttribute("id", "c-" + what);
 	lien = document.createElement("a");
 	if (what === "email") {
@@ -57,6 +58,8 @@ function connect() {
 	var elem_title = document.createElement("h1");
 	elem_title.setAttribute("id", "my-name");
 	elem_title.setAttribute("class", "align-center");
+	elem_title.setAttribute("data-sr", "move 50px over 2.0s");
+	
 	elem_title.appendChild(document.createTextNode(me["firstname"] + " " + me["lastname"]));
 	section.appendChild(elem_title);
 
@@ -65,6 +68,7 @@ function connect() {
 	{
 		var as = document.createElement("div");
 		as.setAttribute("class", "asset align-center");
+		as.setAttribute("data-sr", "wait " + i/4 + "s, scale up " + 20 * i + "%");
 		as.appendChild(document.createTextNode(me["assets"][i]));
 		section.appendChild(as);		
 	}

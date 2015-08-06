@@ -31,9 +31,11 @@ html(lang="en")
 					polygon(points="0,0 1000,0 650,8", style="fill:#fff;")
 
 				a(id="cont-me", href="#my-name")
-					li= 'Contact me'
+					li(data-sr= "over 2.4s")= 'Contact me'
+
 
 			script(src= "/jquery-2.1.4.min.js")
+			
 			script(src= "/citations/citation.js")
 			- for (var i = 0; sectionsTab[i]; i++)
 				script(src= "#{sectionsDir}" + "#{sectionsTab[i]}" + '/' + "#{sectionsTab[i]}" + '.js')
@@ -44,6 +46,12 @@ html(lang="en")
 			script skills();
 			script citation('"Slow and methodical testing like this will eventually get you to a point where you will either be able to spot the bug, or go quietly insane. Maybe both."', "s-connect");
 			script citation('"Computers are like Old Testament gods - lots of rules and no mercy."', "s-hobbies");
-
 			script.
 				$("#a-connect").attr("href", "#my-name");
+
+			script(src= "/scrollReveal.min.js")
+			script.
+				var config = {
+					reset:  true,
+				}
+				window.sr = new scrollReveal(config);

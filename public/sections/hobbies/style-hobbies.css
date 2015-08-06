@@ -3,6 +3,7 @@
 }
 
 #s-hobbies #c-hobbies {
+	display: -webkit-box;
 	display: flex;
 	justify-content:space-around;
 }

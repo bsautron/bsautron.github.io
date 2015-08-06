@@ -2,6 +2,7 @@ function printQt(qt)
 {
 	var el = document.createElement("tr");
 	el.setAttribute("class", "qt");
+	el.setAttribute("data-sr", "move -20px");
 	el.setAttribute("id", "qt-" + qt["id"]);
 
 	var begin = document.createElement("td");

@@ -8,9 +8,6 @@
 
 #s-timeline tr {
 	font-family: 'Arvo', serif;
-	/*display: flex;*/
-	/*justify-content: space-around;*/
-	/*margin: 10px;*/
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	-webkit-background-clip: padding-box;  for Safari 
     background-clip: padding-box;

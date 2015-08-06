@@ -4,7 +4,7 @@ function printLang(lang) {
 	var el = document.createElement("div");
 	el.setAttribute("id", "cont-lang");
 	el.setAttribute("class", "class-skills");
-
+	el.setAttribute("data-sr", "scale down 10%");
 	
 	for (var i = 0; lang[i]; i++)
 	{
@@ -36,6 +36,7 @@ function printSkills(skill) {
 	{
 		var sk = document.createElement("div");
 		sk.setAttribute("class", "sk");
+		sk.setAttribute("data-sr", "enter left, hustle 30px");
 		sk.innerHTML = "<div class=\"sk-name align-left\" style=\"width:" + skill[i]["level"] + "%\" >" + skill[i]["name"] + "</div>";
 		el.appendChild(sk);
 	}
@@ -56,20 +57,21 @@ function printTk(category, techno) {
 		cate.push( {"name": category[key], "element": document.createElement("div") , "cont-techno": document.createElement("div")} );
 		cate[y]["element"].setAttribute("id", "cate-" + category[key]);
 		cate[y]["element"].setAttribute("class", "cate");
-		cate[y]["element"].innerHTML = "<div class=\"cate-name\">" +
+		cate[y]["element"].innerHTML = "<div class='cate-name' data-sr=''>" +
 											"<div class=\"cate-border\"></div>" + 
-											"<div class=cate-write><div class='cate-write-in'>" + category[key] + "</div></div>" +
+											"<div class='cate-write'><div class='cate-write-in'>" + category[key] + "</div></div>" +
 										"</div>";
 		cate[y]["cont-techno"].setAttribute("class", "cont-tk");
 		y++;
 	}
 
-
+	var enter = ["bottom", "top", "left", "right"];
 	for (var i = 0; techno[i]; i++) {
 		if (techno[i]["level"] >= 50) {
+			var rand = enter[Math.floor(Math.random() * enter.length)];
 			var tk = document.createElement("div");
 			tk.setAttribute("class", "tk");
-			tk.innerHTML = "<div class=\"tk-bar\" style=\"height: " + techno[i]["level"] + "%;\">" + techno[i]["name"] + "</div>";
+			tk.innerHTML = "<div class=\"tk-bar\" style=\"height: " + techno[i]["level"] + "%;\" data-sr=\"enter " + rand + "\">" + techno[i]["name"] + "</div>";
 			var index = 0;
 			while (cate[index]["name"] != techno[i]["category"][0]) {
 				index++;

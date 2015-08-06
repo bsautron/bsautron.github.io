@@ -1,8 +1,5 @@
 extends layout
 
-//- - sectionsTab = ["connect", "timeline", "hobbies", "skills"];
-
-
 block vars
   - var title = "Cv - Bruno Sautron"
 
@@ -12,7 +9,7 @@ block content
   header#header
     #fond-header
       .ghost
-      .middle.radius
+      .middle.radius(data-sr= "enter top over 1.3s")
         h1= 'Architect in digital technologies'
       .ghost
       span(id="descritpion")= 'Curriculum vitae'

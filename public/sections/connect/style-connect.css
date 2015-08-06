@@ -29,6 +29,7 @@
 }
 
 #other-coo {
+	display: -webkit-box;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;

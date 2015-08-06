@@ -1,6 +1,7 @@
-function printHobbie(hobbie) {
+function printHobbie(hobbie, index) {
 	var el = document.createElement("div");
 	el.setAttribute("class", "hb");
+	el.setAttribute("data-sr", "wait " + index/3 + "s");
 	el.setAttribute("id", "hb-" + hobbie["name"]);
 
 	el.innerHTML = "<div class\"hb-img\"><img src=\"" + hobbie["img"] + "\" height=\"100px\"></img><h3>" + hobbie["name"] + "</h3><p>" + hobbie["description"] + "</div>";
@@ -27,7 +28,7 @@ function hobbies() {
 
 	for (var i = 0; hobbie[i]; i++)
 	{
-		var el = printHobbie(hobbie[i]);
+		var el = printHobbie(hobbie[i], i);
 		container.appendChild(el);
 		section.appendChild(container);
 	}
