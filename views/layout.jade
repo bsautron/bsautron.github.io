@@ -44,47 +44,9 @@ html(lang="en")
 						}, 'slow');
 					return false;
 					});
-			script(src= "/jquery.sticky.js")
-			script.
-				$(document).ready(function(){
-					$("#menu").sticky({topSpacing:0});
-				});
-				$('#menu').on('sticky-start', function() {
-					$(this).css("background", "white");
-					$(this).css("box-shadow", "0 1px 10px");
-					$(this).find("a").each( function () {
-						$(this).css("color", "#000");
-						$(this).hover( function() {
-							$(this).css("background", "rgba(0, 0, 0, 0.9)");
-							$(this).css("color", "rgba(255, 255, 255, 1)");
-						}, function() {
-							$(this).css("background", "transparent");
-							$(this).css("color", "#000");
-						});
-					});
-					$(this).find("span").each( function () {
-						$(this).html("Curriculum vitae");
-						$(this).css("color", "#000");
-					});
-				});
 
-				$('#menu').on('sticky-end', function() {
-					$(this).css("background", "transparent");
-					$(this).css("box-shadow", "0px 0px 0px");
-					$(this).find("span").html("Curriculum vitae");
-					$(this).find("span").css("color", "rgba(255, 255, 255, 0.3");
-					$(this).find("a").each( function () {
-						$(this).css("color", "rgba(255, 255, 255, 0.9)");
-						$(this).hover( function() {
-							//- $(this).css("color", "rgba(255, 255, 255, 0.9)");
-							$(this).css("background", "rgba(255, 255, 255, 0.1)");
-						}, function() {
-							$(this).css("color", "rgba(255, 255, 255, 0.9)");
-							$(this).css("background", "transparent");
-						});
-					});
-				});
-
+			script(src="//code.jquery.com/ui/1.11.4/jquery-ui.js")
+			script(src="/menuTop.js")
 			script(src= "/citations/citation.js")
 			- for (var i = 0; sectionsTab[i]; i++)
 				script(src= "#{sectionsDir}" + "#{sectionsTab[i]}" + '/' + "#{sectionsTab[i]}" + '.js')

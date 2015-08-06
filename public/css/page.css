@@ -19,7 +19,7 @@ header {
 
 header #menu {
 	z-index: 50;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 100%;
 	background: transparent;
@@ -43,6 +43,7 @@ header #menu li {
 	height: 50px;
 	line-height: 50px;
 	list-style-type:none;
+	transition: all 0.2s;
 }
 
 header #menu a {
@@ -51,7 +52,7 @@ header #menu a {
 	color: rgba(255, 255, 255, 0.9);
 }
 
-header #menu a:hover {
+header #menu a:hover li {
 	background: rgba(255, 255, 255, 0.1);
 }
 
