@@ -17,7 +17,8 @@ header {
 	height: 100%;
 }
 
-header .menu {
+header #menu {
+	z-index: 50;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -27,7 +28,7 @@ header .menu {
     background-clip: padding-box;
 }
 
-header .menu ul {
+header #menu ul {
 	display: -webkit-box;
 	display: flex;
 	justify-content: flex-end;
@@ -35,7 +36,7 @@ header .menu ul {
 
 }
 
-header .menu li {
+header #menu li {
 	font-family: 'PT Sans Narrow', sans-serif;
 	text-transform: uppercase;
 	width: 150px;
@@ -44,13 +45,13 @@ header .menu li {
 	list-style-type:none;
 }
 
-header .menu a {
+header #menu a {
 	text-decoration: none;
 	font-size: 1.1em;
 	color: rgba(255, 255, 255, 0.9);
 }
 
-header .menu a:hover li {
+header #menu a:hover {
 	background: rgba(255, 255, 255, 0.1);
 }
 
@@ -65,10 +66,18 @@ header #descritpion {
 	left: 20px;
 }
 
+header svg {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
 
 #fond-header {
+	position: absolute;
+	top:0;
+	width: 100%;
 	background: transparent;
-	position: relative;
 	height: 75%;
 }
 
