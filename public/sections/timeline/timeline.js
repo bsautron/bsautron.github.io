@@ -87,7 +87,7 @@ function timeline() {
 	},
 	{
 		"id": "4",
-		"diploma": "Landed on earth",
+		"diploma": "Landed on Earth",
 		"school": "Earth",
 		"img": "earth.png",
 		"begin": "1995",
