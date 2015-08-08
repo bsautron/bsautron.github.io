@@ -57,7 +57,7 @@ function timeline() {
 	},
 	{
 		"id": "1",
-		"diploma": "Bac +1 Mathematics/Informatics",
+		"diploma": "Bac +1 Mathematics/Computer Science",
 		"school": "Université Claude Bernard Lyon 1",
 		"img": "bac+1.png",
 		"begin": "2013",
@@ -87,7 +87,7 @@ function timeline() {
 	},
 	{
 		"id": "4",
-		"diploma": "Landed on the planet",
+		"diploma": "Landed on earth",
 		"school": "Earth",
 		"img": "earth.png",
 		"begin": "1995",
