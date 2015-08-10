@@ -140,3 +140,5 @@ function skills() {
 
 	$("#footer").before(section);
 }
+
+skills();

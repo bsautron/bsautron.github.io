@@ -84,3 +84,5 @@ function connect() {
 
 	$("#footer").before(section);
 }
+
+connect();

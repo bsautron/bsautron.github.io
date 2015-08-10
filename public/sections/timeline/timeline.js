@@ -107,3 +107,5 @@ function timeline() {
 
 	$("#footer").before(section);
 }
+
+timeline();

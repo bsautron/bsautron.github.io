@@ -37,3 +37,5 @@ function hobbies() {
 	// $('#footer').befor(section);
 	// document.body.appendChild(section);
 }
+
+hobbies();
