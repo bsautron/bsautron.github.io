@@ -62,7 +62,7 @@ function work() {
 		{
 			name: "ft_ls",
 			url: "https://github.com/Scanf974/ft_ls",
-			desc: "Recode the Unix ls",
+			desc: "Recode the Unix ls command",
 			lang: "C",
 			img: "http://cdn.guru99.com/images/ls-a(2).png"
 		},
@@ -104,7 +104,7 @@ function work() {
 		{
 			name: "2048",
 			url: "https://github.com/dvolberg/Game_2048",
-			desc: "A 2048 game with termcaps",
+			desc: "A 2048 game with ncurses",
 			lang: "C",
 			img: "/img/2048.png"
 		},
