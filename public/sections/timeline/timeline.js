@@ -2,7 +2,7 @@ function printQt(qt)
 {
 	var el = document.createElement("tr");
 	el.setAttribute("class", "qt");
-	el.setAttribute("data-sr", "move -20px");
+	el.setAttribute("data-sr", "");
 	el.setAttribute("id", "qt-" + qt["id"]);
 
 	var begin = document.createElement("td");
@@ -98,8 +98,7 @@ function timeline() {
 	]
 	var table = document.createElement("table");
 	table.setAttribute("cellpadding", "10");
-	for (var i = 0; qt[i]; i++)
-	{
+	for (var i = 0; qt[i]; i++) {
 		var el = printQt(qt[i]);
 		table.appendChild(el);
 	}

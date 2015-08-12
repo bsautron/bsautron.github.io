@@ -1,0 +1,72 @@
+#s-work {
+	padding-top: 70px;
+}
+
+#s-work a {
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+}
+
+#s-work #cont-work .ww {
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: 300px;
+	height: 300px;
+}
+
+#s-work #cont-work .ww:hover .work-title{
+	color: rgba(0,0,0,1);
+}
+
+
+#s-work .cont-desc {
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+.work-img {
+	position: relative;
+	width: 100%;
+	height: 50%;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+
+#s-work #cont-work .ww:hover .work-img{
+	filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+
+.work-desc {
+	position: absolute;
+	color: rgba(0,0,0,0.5);
+	font-family: 'Arvo', serif;
+	width: 80%;
+	height: 100%;
+}
+
+.work-title {
+	color: rgba(0,0,0,0.5);
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.work-lang {
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	color: rgba(0,0,0,0.5);
+	position: absolute;
+	font-size: 2em;
+	right:0;
+}
