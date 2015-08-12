@@ -55,7 +55,7 @@ function work() {
 		{
 			name: "computor_v1",
 			url: "https://github.com/Scanf974/computor_v1",
-			desc: "Solve polynomial of maximum degree 2",
+			desc: "Solve polynomial functions of maximum degree 2",
 			lang: "Js",
 			img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/4_fonctions_du_second_degr%C3%A9.svg/500px-4_fonctions_du_second_degr%C3%A9.svg.png"
 		},
