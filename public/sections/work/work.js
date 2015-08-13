@@ -1,14 +1,15 @@
-function printWork(work) {
+function printWork(work, i) {
 	var ww = document.createElement("div");
 	ww.setAttribute("class", "ww");
 
 	var a = document.createElement("a");
 	a.setAttribute("href", work.url);
 
+	var enter = ["bottom", "top", "left", "right"];
 	var img = document.createElement("div");
 	img.setAttribute("class", "work-img");
 	img.setAttribute("style", "background: url('" + work.img + "'); background-position: center; background-size: cover;");
-	img.setAttribute("data-sr", "move -20px");
+	img.setAttribute("data-sr", "enter " + enter[i%4] + ", move 50px");
 
 
 	var contDesc = document.createElement("div");
@@ -129,7 +130,7 @@ function work() {
 	contWork.setAttribute("id", "cont-work");
 
 	for (var i = 0; work[i]; i++) {
-		var el = printWork(work[i]);
+		var el = printWork(work[i], i);
 		contWork.appendChild(el);
 	}
 	section.appendChild(contWork);
