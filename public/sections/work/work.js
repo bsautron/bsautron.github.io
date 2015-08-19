@@ -48,42 +48,42 @@ function work() {
 	var work = [
 		{
 			name: "ft_printf",
-			url: "https://github.com/Scanf974/ft_printf",
+			url: "https://github.com/BrunoSautron/ft_printf",
 			desc: "Recode printf with flags",
 			lang: "C",
 			img: "http://media.antson.org/2014/05/hello_world.jpg"
 		},
 		{
 			name: "computor_v1",
-			url: "https://github.com/Scanf974/computor_v1",
+			url: "https://github.com/BrunoSautron/computor_v1",
 			desc: "Solve polynomial functions of maximum degree 2",
 			lang: "Js",
 			img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/4_fonctions_du_second_degr%C3%A9.svg/500px-4_fonctions_du_second_degr%C3%A9.svg.png"
 		},
 		{
 			name: "ft_ls",
-			url: "https://github.com/Scanf974/ft_ls",
+			url: "https://github.com/BrunoSautron/ft_ls",
 			desc: "Recode the Unix ls command",
 			lang: "C",
 			img: "http://cdn.guru99.com/images/ls-a(2).png"
 		},
 		{
 			name: "fdf",
-			url: "https://github.com/Scanf974/fdf",
+			url: "https://github.com/BrunoSautron/fdf",
 			desc: "Create graphically the schematic representation of a relief ground",
 			lang: "C",
 			img: "/img/fdf.png"
 		},
 		{
 			name: "ft_minishell",
-			url: "https://github.com/Scanf974/ft_minishell2",
+			url: "https://github.com/BrunoSautron/ft_minishell2",
 			desc: "Recode a command-line interpreter",
 			lang: "C",
 			img: "http://lostinmac.files.wordpress.com/2010/07/lsof11.png"
 		},
 		{
 			name: "BallSquirrel",
-			url: "https://github.com/Scanf974/BallSquirrel",
+			url: "https://github.com/BrunoSautron/BallSquirrel",
 			desc: "Get acorn!",
 			lang: "Python",
 			img: "/img/bs.png"
@@ -97,7 +97,7 @@ function work() {
 		},
 		{
 			name: "LibASM",
-			url: "https://github.com/Scanf974/libftasm",
+			url: "https://github.com/BrunoSautron/libftasm",
 			desc: "A few functions of lib C",
 			lang: "ASM",
 			img: "http://www.pelock.com/blog/wp-content/uploads/2007/04/hiew740.png"
@@ -111,14 +111,14 @@ function work() {
 		},
 		{
 			name: "Wolf3d",
-			url: "https://github.com/Scanf974/wolf3d",
+			url: "https://github.com/BrunoSautron/wolf3d",
 			desc: "Raycasting",
 			lang: "C",
 			img: "/img/wolf3d.png"
 		},
 		{
 			name: "Push_swap",
-			url: "https://github.com/Scanf974/push_swap",
+			url: "https://github.com/BrunoSautron/push_swap",
 			desc: "Sort a stack",
 			lang: "C",
 			img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/2000px-Data_stack.svg.png"
