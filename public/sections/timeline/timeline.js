@@ -17,7 +17,7 @@ function printQt(qt)
 
 	var img = document.createElement("td");
 	img.setAttribute("class", "qt-qt qt-img");
-	img.innerHTML = '<img src="img/' + qt["img"] + '" height="75px"></img>';
+	img.innerHTML = '<img src="img/' + qt["img"] + '" width="75px"></img>';
 	el.appendChild(img);
 
 	var diploma = document.createElement("td");
@@ -55,8 +55,18 @@ function timeline() {
 		"country": "France",
 		"city": "Paris"
 	},
+  {
+    "id": "1",
+    "diploma": "Api evangelist - Flower Power",
+    "school": "Parrot SA",
+    "img": "parrot.png",
+    "begin": "2015",
+    "end": "2016",
+    "country": "France",
+    "city": "Paris"
+  },
 	{
-		"id": "1",
+		"id": "2",
 		"diploma": "Bac +1 Mathematics/Computer Science",
 		"school": "Université Claude Bernard Lyon 1",
 		"img": "bac+1.png",
@@ -66,7 +76,7 @@ function timeline() {
 		"city": "Lyon"
 	},
 	{
-		"id": "2",
+		"id": "3",
 		"diploma": "Baccalauréat S-SI",
 		"school": "Lycée Louis Payen ",
 		"img": "bac+s-si.png",
@@ -75,16 +85,7 @@ function timeline() {
 		"country": "France",
 		"city": "Reunion island"
 	},
-	{
-		"id": "3",
-		"diploma": "Brevet des Collèges",
-		"school": "Collège Jules Solesse",
-		"img": "brevet.png",
-		"begin": "2009",
-		"end": "2010",
-		"country": "France",
-		"city": "Reunion island"
-	},
+
 	{
 		"id": "4",
 		"diploma": "Landed on Earth",

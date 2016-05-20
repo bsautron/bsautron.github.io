@@ -3,7 +3,7 @@ function printLang(lang) {
 	el.setAttribute("id", "cont-lang");
 	el.setAttribute("class", "class-skills");
 	el.setAttribute("data-sr", "scale down 10%");
-	
+
 	for (var i = 0; lang[i]; i++)
 	{
 		var lg = document.createElement("div");
@@ -17,7 +17,7 @@ function printLang(lang) {
 			lg.innerHTML += "<div class=\"lg-lvl lg-lvl" + lang[i]["level"] + "\">Intermediate</div>";
 		else if (lang[i]["level"] === 1)
 			lg.innerHTML += "<div class=\"lg-lvl lg-lvl" + lang[i]["level"] + "\">Beginner</div>";
-			
+
 		el.appendChild(lg);
 	}
 
@@ -55,7 +55,7 @@ function printTk(category, techno) {
 		cate[y]["element"].setAttribute("id", "cate-" + category[key]);
 		cate[y]["element"].setAttribute("class", "cate");
 		cate[y]["element"].innerHTML = "<div class='cate-name' data-sr=''>" +
-											"<div class=\"cate-border\"></div>" + 
+											"<div class=\"cate-border\"></div>" +
 											"<div class='cate-write'><div class='cate-write-in'>" + category[key] + "</div></div>" +
 										"</div>";
 		cate[y]["cont-techno"].setAttribute("class", "cont-tk");
@@ -85,7 +85,7 @@ function skills() {
 	section = document.getElementById('s-skills');
 	section.innerHTML = "<h1 class='align-left'>Skills</h1>";
 	// section.innerHTML += "<h2 class='align-left'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
-	
+
 
 	var category = {
 		"programming": "programming",
@@ -101,7 +101,7 @@ function skills() {
 			{"name": "Algorithms and AI", "level": 98},
 			{"name": "Imperative programming", "level": 90},
 			{"name": "Unix", "level": 70},
-			{"name": "Web", "level": 60},
+			{"name": "Web", "level": 68},
 			{"name": "Object-oriented programming", "level": 85},
 			{"name": "Graphics", "level": 40},
 			{"name": "DB & Data", "level": 20},
@@ -110,15 +110,15 @@ function skills() {
 		"technologies": [
 			{"name": "c", "level": 99, "category": [category["programming"]], "img": ""},
 			{"name": "c++", "level": 90, "category": [category["programming"]], "img": ""},
-			{"name": "js", "level": 78, "category": [category["programming"]], "img": ""},
-			{"name": "php", "level": 55, "category": [category["web"]], "img": ""},
-			{"name": "html", "level": 60, "category": [category["web"]], "img": ""},
-			{"name": "css", "level": 60, "category": [category["web"]], "img": ""},
+			{"name": "nodejs", "level": 92, "category": [category["web"]], "img": ""},
+			{"name": "php", "level": 45, "category": [category["web"]], "img": ""},
+			{"name": "html", "level": 70, "category": [category["web"]], "img": ""},
+			{"name": "css", "level": 70, "category": [category["web"]], "img": ""},
 			{"name": "bash", "level": 70, "category": [category["programming"]], "img": ""},
 			{"name": "ajax", "level": 10, "category": [category["web"]], "img": ""},
-			{"name": "jq", "level": 50, "category": [category["web"]], "img": ""},
+			{"name": "jq", "level": 45, "category": [category["web"]], "img": ""},
 			{"name": "py", "level": 88, "category": [category["programming"]], "img": ""},
-			{"name": "sql", "level": 75, "category": [category["web"]], "img": ""},
+			{"name": "nosql", "level": 75, "category": [category["web"]], "img": ""},
 			{"name": "jade", "level": 22, "category": [category["web"]], "img": ""},
 			{"name": "asm", "level": 22, "category": [category["programming"]], "img": ""}
 		]

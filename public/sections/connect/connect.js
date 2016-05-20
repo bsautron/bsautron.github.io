@@ -40,17 +40,16 @@ function connect() {
 	var me = {
 		"firstname": "Bruno",
 		"lastname": "Sautron",
-		"email": "bsautron@student.42.fr",
+    "email": "sautron.brunojj@gmail.com",
 		"tel": "+33786654520",
 		"linkedin": {
 			"url": "https://www.linkedin.com/",
 			"ln-me": "in/bsautron"
 		},
 		"assets": [
-			"3 essential assets",
-			"Motivation",
-			"Efficiency",
-			"Ambition"
+			"Fascinated",
+			"Passionate",
+			"Fearless"
 		]
 	}
 
@@ -59,7 +58,7 @@ function connect() {
 	elem_title.setAttribute("id", "my-name");
 	elem_title.setAttribute("class", "align-center");
 	elem_title.setAttribute("data-sr", "move 50px over 2.0s");
-	
+
 	elem_title.appendChild(document.createTextNode(me["firstname"] + " " + me["lastname"]));
 	section.appendChild(elem_title);
 
@@ -70,7 +69,7 @@ function connect() {
 		as.setAttribute("class", "asset align-center");
 		as.setAttribute("data-sr", "wait " + i/4 + "s, scale up " + 20 * i + "%");
 		as.appendChild(document.createTextNode(me["assets"][i]));
-		section.appendChild(as);		
+		section.appendChild(as);
 	}
 
 	var other = document.createElement("div");

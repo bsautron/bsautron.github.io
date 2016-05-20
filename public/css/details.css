@@ -1,4 +1,4 @@
-section { 
+section {
 	background: white;
 	width: 100%;
 	padding-bottom: 30px;
@@ -54,4 +54,8 @@ section h2 {
 
 .dark-blue {
 	color: #046380;
+}
+
+.qt {
+  height: 75px;
 }
