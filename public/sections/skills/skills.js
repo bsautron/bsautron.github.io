@@ -111,16 +111,17 @@ function skills() {
 			{"name": "c", "level": 99, "category": [category["programming"]], "img": ""},
 			{"name": "c++", "level": 90, "category": [category["programming"]], "img": ""},
 			{"name": "nodejs", "level": 92, "category": [category["web"]], "img": ""},
-			{"name": "php", "level": 45, "category": [category["web"]], "img": ""},
+			{"name": "php", "level": 55, "category": [category["web"]], "img": ""},
 			{"name": "html", "level": 70, "category": [category["web"]], "img": ""},
 			{"name": "css", "level": 70, "category": [category["web"]], "img": ""},
-			{"name": "bash", "level": 70, "category": [category["programming"]], "img": ""},
+			{"name": "bash", "level": 74, "category": [category["programming"]], "img": ""},
 			{"name": "ajax", "level": 10, "category": [category["web"]], "img": ""},
 			{"name": "jq", "level": 45, "category": [category["web"]], "img": ""},
-			{"name": "py", "level": 88, "category": [category["programming"]], "img": ""},
+			{"name": "python", "level": 88, "category": [category["programming"]], "img": ""},
 			{"name": "nosql", "level": 75, "category": [category["web"]], "img": ""},
 			{"name": "jade", "level": 22, "category": [category["web"]], "img": ""},
-			{"name": "asm", "level": 22, "category": [category["programming"]], "img": ""}
+			{"name": "asm", "level": 22, "category": [category["programming"]], "img": ""},
+      {"name": "unity<br/>c#", "level": 78, "category": [category["programming"]], "img": ""}
 		]
 	};
 
