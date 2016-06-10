@@ -51,7 +51,7 @@ function work() {
 			url: "https://github.com/BrunoSautron/ft_printf",
 			desc: "Recode printf with flags",
 			lang: "C",
-			img: "http://media.antson.org/2014/05/hello_world.jpg"
+			img: "https://hbt.io/wp-content/uploads/2014/05/hello_world.jpg"
 		},
 		{
 			name: "computor_v1",
