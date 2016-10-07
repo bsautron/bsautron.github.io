@@ -27,7 +27,7 @@ function printInfos(me, what, image) {
 		lien.setAttribute("href", me[what]["url"] + me[what]["ln-me"]);
 	}
 	img = document.createElement("img");
-	img.setAttribute("src", "img/icons/png/" + image);
+	img.setAttribute("src", "./img/icons/png/" + image);
 	img.setAttribute("height", "30px");
 
 	elem.appendChild(img);

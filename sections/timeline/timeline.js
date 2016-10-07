@@ -17,7 +17,7 @@ function printQt(qt)
 
 	var img = document.createElement("td");
 	img.setAttribute("class", "qt-qt qt-img");
-	img.innerHTML = '<img src="img/' + qt["img"] + '" width="75px"></img>';
+	img.innerHTML = '<img src="./img/' + qt["img"] + '" width="75px"></img>';
 	el.appendChild(img);
 
 	var diploma = document.createElement("td");

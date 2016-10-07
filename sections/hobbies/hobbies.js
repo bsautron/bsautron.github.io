@@ -14,11 +14,11 @@ function hobbies() {
 	// section.innerHTML += "<h2 class='align-center'>Quapropter a natura mihi videtur potius quam ab indigentia orta amicitia, applicatione magis animi cum utilitatis esset habitura.</h2>";
 
 	var hobbie = [
-		{"name": "coding", "img": "img/coding.png", "description": "Can we call <em>working</em> something we can't stop doing?"},
-		{"name": "sleeping", "img": "img/sleeping.png", "description": "Sleeping is the best way to get enough energy to code. It's so relaxing..."},
-		{"name": "running", "img": "img/running.png", "description": "I practiced athletics for 10 years, and now I ride my bike every day."},
-		{"name": "gaming", "img": "img/gaming.png", "description": "I like online strategy game, like MMORPG and MOBA."},
-		{"name": "music", "img": "img/guitar.png", "description": "Listening music and playing music are my drug. I taught myself how to play the guitar and I like to sing over. If I could, I would learn to play any instruments."}
+		{"name": "coding", "img": "./img/coding.png", "description": "Can we call <em>working</em> something we can't stop doing?"},
+		{"name": "sleeping", "img": "./img/sleeping.png", "description": "Sleeping is the best way to get enough energy to code. It's so relaxing..."},
+		{"name": "running", "img": "./img/running.png", "description": "I practiced athletics for 10 years, and now I ride my bike every day."},
+		{"name": "gaming", "img": "./img/gaming.png", "description": "I like online strategy game, like MMORPG and MOBA."},
+		{"name": "music", "img": "./img/guitar.png", "description": "Listening music and playing music are my drug. I taught myself how to play the guitar and I like to sing over. If I could, I would learn to play any instruments."}
 	]
 
 	var container = document.createElement("div");

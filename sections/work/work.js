@@ -51,7 +51,7 @@ function work() {
 			url: "https://github.com/BrunoSautron/ft_printf",
 			desc: "Recode printf with flags",
 			lang: "C",
-			img: "https://hbt.io/wp-content/uploads/2014/05/hello_world.jpg"
+			img: "./img/hello-world.jpg"
 		},
 		{
 			name: "computor_v1",
@@ -72,7 +72,7 @@ function work() {
 			url: "https://github.com/BrunoSautron/fdf",
 			desc: "Create graphically the schematic representation of a relief ground",
 			lang: "C",
-			img: "/img/fdf.png"
+			img: "./img/fdf.png"
 		},
 		{
 			name: "ft_minishell",
@@ -86,14 +86,14 @@ function work() {
 			url: "https://github.com/BrunoSautron/BallSquirrel",
 			desc: "Get acorn!",
 			lang: "Python",
-			img: "/img/bs.png"
+			img: "./img/bs.png"
 		},
 		{
 			name: "ft_retro",
 			url: "https://github.com/eml-trm/rush00",
 			desc: "A small Space Arcade Game make in 48h for a school project",
 			lang: "C++",
-			img: "/img/rush00.png"
+			img: "./img/rush00.png"
 		},
 		{
 			name: "LibASM",
@@ -107,14 +107,14 @@ function work() {
 			url: "https://github.com/dvolberg/Game_2048",
 			desc: "A 2048 game with ncurses",
 			lang: "C",
-			img: "/img/2048.png"
+			img: "./img/2048.png"
 		},
 		{
 			name: "Wolf3d",
 			url: "https://github.com/BrunoSautron/wolf3d",
 			desc: "Raycasting",
 			lang: "C",
-			img: "/img/wolf3d.png"
+			img: "./img/wolf3d.png"
 		},
 		{
 			name: "Push_swap",
