@@ -67,6 +67,7 @@
 	padding-top: 10px;
 	background: black;
 	font-size: 1.2em;
+	word-wrap: break-word;
 }
 
 #s-skills .cont-tk {
@@ -79,7 +80,7 @@
 }
 
 #s-skills .tk {
-	width: 60px;
+	width: 70px;
 	height: 100%;
 	margin-left: 3px;
 	margin-right: 3px;

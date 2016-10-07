@@ -47,6 +47,16 @@ function timeline() {
 	var qt = [
 	{
 		"id": "0",
+		"diploma": "Full Stack Developer",
+		"school": "Neo9",
+		"img": "neo9.png",
+		"begin": "2016",
+		"end": null,
+		"country": "France",
+		"city": "Paris"
+	},
+	{
+		"id": "0",
 		"diploma": "Architect in digital technologies",
 		"school": "School 42",
 		"img": "logo-421.png",
@@ -55,16 +65,16 @@ function timeline() {
 		"country": "France",
 		"city": "Paris"
 	},
-  {
-    "id": "1",
-    "diploma": "Api evangelist - Flower Power",
-    "school": "Parrot SA",
-    "img": "parrot.png",
-    "begin": "2015",
-    "end": "2016",
-    "country": "France",
-    "city": "Paris"
-  },
+	{
+		"id": "1",
+		"diploma": "Api evangelist - Flower Power",
+		"school": "Parrot SA",
+		"img": "parrot.png",
+		"begin": "2015",
+		"end": "2016",
+		"country": "France",
+		"city": "Paris"
+	},
 	{
 		"id": "2",
 		"diploma": "Bac +1 Mathematics/Computer Science",
@@ -85,7 +95,6 @@ function timeline() {
 		"country": "France",
 		"city": "Reunion island"
 	},
-
 	{
 		"id": "4",
 		"diploma": "Landed on Earth",
